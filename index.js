@@ -1,18 +1,20 @@
-const carro = {
-    marca: 'Toyota',
-    modelo: 'Corolla',
-    ano: 2020,
-    ligar: function() {
-        console.log('O carro está ligado.');
-    },
-    desligar: function() {
-        console.log('O carro está desligado.');
-    }
-};
+const idade = 23 
+if (idade >= 18) {
+    console.log("Você é maior de idade.")
+} else {
+    console.log("Você é menor de idade.")
+}
 
-console.log(carro.marca); // Output: Toyota
-console.log(carro.modelo); // Output: Corolla
-console.log(carro.ano); // Output: 2020
+const banana = "amarela"
+if (banana === "amarela") {
+    console.log("A banana está madura.")
+} else {
+    console.log("A banana não está madura.")
+}
 
-carro.ligar(); // Output: O carro está ligado.
-carro.desligar(); // Output: O carro está desligado.
+const carro = "vermelho"
+if (carro === "vermelho") {
+    console.log("O carro é vermelho.")
+} else {
+    console.log("O carro não é vermelho.")
+}
