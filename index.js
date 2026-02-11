@@ -1,22 +1,18 @@
-const frutas = ['banana', 'maçã', 'laranja', 'uva', 'abacaxi'];
+const pessoa = {}
+console.log(pessoa) // undefined
 
-// Imprime o array original
-console.log('Array original:', frutas);
+pessoa.nome = 'João'
+console.log(pessoa) // { nome: 'João' }
 
-frutas.push('banana'); // Adiciona 'banana' ao final do array
-console.log("frutas")
+const carro = {
+    marca: 'Ford',
+    modelo: 'Ka',
+    ano: 2020
+}
+console.log(carro) // { marca: 'Ford', modelo: 'Ka', ano: 2020 }
 
-frutas.push('maçã'); // Adiciona 'maçã' ao final do array
-console.log("frutas")
+carro.ano = 2021
+console.log(carro) // { marca: 'Ford', modelo: 'Ka', ano: 2021 }
 
-const index = frutas.indexOf('banana'); // Encontra o índice da primeira ocorrência de 'banana'
-console.log("index")
-
-frutas.pop (); // Remove o último elemento do array
-console.log("frutas")
-
-frutas.shift(); // Remove o primeiro elemento do array
-console.log("frutas")
-
-frutas.splice(2, 1); // Remove o elemento na posição 2 (laranja)
-console.log("frutas")
+delete carro.modelo
+console.log(carro) // { marca: 'Ford', ano: 2021 }
