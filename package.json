@@ -1,0 +1,25 @@
+{
+  "name": "fundamentos-js",
+  "version": "1.0.0",
+  "description": "Projeto de fixação de conteúdo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon . "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismaeloliveira-projetos/fundamentos-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ismaeloliveira-projetos/fundamentos-JS/issues"
+  },
+  "homepage": "https://github.com/ismaeloliveira-projetos/fundamentos-JS#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
