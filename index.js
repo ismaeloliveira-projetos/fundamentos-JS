@@ -1,18 +1,18 @@
-const pessoa = {}
-console.log(pessoa) // undefined
-
-pessoa.nome = 'João'
-console.log(pessoa) // { nome: 'João' }
-
 const carro = {
-    marca: 'Ford',
-    modelo: 'Ka',
-    ano: 2020
-}
-console.log(carro) // { marca: 'Ford', modelo: 'Ka', ano: 2020 }
+    marca: 'Toyota',
+    modelo: 'Corolla',
+    ano: 2020,
+    ligar: function() {
+        console.log('O carro está ligado.');
+    },
+    desligar: function() {
+        console.log('O carro está desligado.');
+    }
+};
 
-carro.ano = 2021
-console.log(carro) // { marca: 'Ford', modelo: 'Ka', ano: 2021 }
+console.log(carro.marca); // Output: Toyota
+console.log(carro.modelo); // Output: Corolla
+console.log(carro.ano); // Output: 2020
 
-delete carro.modelo
-console.log(carro) // { marca: 'Ford', ano: 2021 }
+carro.ligar(); // Output: O carro está ligado.
+carro.desligar(); // Output: O carro está desligado.
